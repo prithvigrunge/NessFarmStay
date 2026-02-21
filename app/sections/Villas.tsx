@@ -7,9 +7,9 @@ import VillaCard from '../components/VillaCard'
 const Villas: React.FC = () => {
   const villas = [
     {
-      name: 'Roof Top Suite',
+      name: 'Roof Top House',
       tagline: 'Spacious Two-Story Retreat',
-      description: 'Experience the comfort of our unique two-story retreat. This spacious layout features a private kitchen for your convenience and an attached bathroom. Designed for those who appreciate extra space and a modern layout, the Roof Top Suite offers a private sanctuary within the farm.',
+      description: 'Experience the comfort of our unique two-story retreat. This spacious layout features a private kitchen for your convenience and an attached bathroom. Designed for those who appreciate extra space and a modern layout, the Roof Top House offers a private sanctuary within the farm.',
       images: [
         '/images/villas/rooftop/1.jpg',
         '/images/villas/rooftop/2.jpg',
