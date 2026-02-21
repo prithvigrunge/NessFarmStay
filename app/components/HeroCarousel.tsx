@@ -14,7 +14,6 @@ const HeroCarousel: React.FC<HeroCarouselProps> = ({ images }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: 'center',
-    draggable: true,
     duration: 50,
   })
 

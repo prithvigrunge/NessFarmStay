@@ -15,7 +15,6 @@ const Carousel: React.FC<CarouselProps> = ({ images, villaName }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
     align: 'start',
-    draggable: true,
     duration: 30,
   })
 
