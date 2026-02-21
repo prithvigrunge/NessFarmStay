@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-charcoal;
+    font-family: var(--font-inter), 'Inter', sans-serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white font-semibold rounded-full px-6 py-3 transition-colors hover:bg-primary/90;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary font-semibold rounded-full px-6 py-3 transition-colors hover:bg-gray-100;
+  }
+}
